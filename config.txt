@@ -1,0 +1,12 @@
+0.Install RABBIT MQ
+
+1.DOWNLOAD JAR ZIPKIN SERVER
+https://search.maven.org/remote_content?g=io.zipkin.java&a=zipkin-server&v=LATEST&c=exec
+
+2.command to start zipkin listening RABBITMQ
+RABBIT_URI=amqp://localhost java -jar zipkin-server-2.12.9-exec.jar
+
+
+
+
+
